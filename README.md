@@ -52,9 +52,9 @@ The score level gives a data structure of the form:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Stub": 0.0033759482020785892   
 &nbsp;&nbsp;&nbsp;&nbsp;}    
 
-All the ORES responses are saved to 'consolidated-ores.json'
+All the ORES responses are saved to 'consolidated-ores.json' which can be reproduced by running the corresponding code cell. 
            
-Additionally, I created a dataframe for state with its corresponding regional division and population called 'combined_region_population.csv'.
+Additionally, I created a dataframe for state with its corresponding regional division and population called 'combined_region_population.csv' which can be reproduced by running the corresponding code cell.   
      
 Finally, to create 'wp_scored_city_articles_by_state.csv', I merged the entries from consolidated-ores.json and combined_region_population.csv based on matched 'state'.    
      
