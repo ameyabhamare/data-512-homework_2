@@ -37,10 +37,10 @@ Wikipedia offers extensive opportunities for supporting data science research. I
 
 # Workflow
 
-1. In **data_acquisition.ipynb**, I make a Wikimedia API calls to get latest revision IDs for each article title. I used these generated revision IDs to makes ORES API calls for each article title. 
-
-The ORES response is a multilevel dictionary. The score level gives a data structure of the form:     
-
+In **data_acquisition.ipynb**, I make a Wikimedia API calls to get latest revision IDs for each article title. I used these generated revision IDs to makes ORES API calls for each article title. The ORES response is a multilevel dictionary.    
+      
+The score level gives a data structure of the form:   
+           
 "Abbeville, Alabama": {   
 &nbsp;&nbsp;&nbsp;&nbsp;"prediction": "C",   
 &nbsp;&nbsp;&nbsp;&nbsp;"probability": {   
@@ -51,8 +51,14 @@ The ORES response is a multilevel dictionary. The score level gives a data struc
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Start": 0.013573873336789355,   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Stub": 0.0033759482020785892   
 &nbsp;&nbsp;&nbsp;&nbsp;}    
- 
-2. This final csv has following data fields:
+
+All the ORES responses are saved to 'consolidated-ores.json'
+           
+Additionally, I created a dataframe for state with its corresponding regional division and population called 'combined_region_population.csv'.
+     
+Finally, to create 'wp_scored_city_articles_by_state.csv', I merged the entries from consolidated-ores.json and combined_region_population.csv based on matched 'state'.    
+     
+This final csv has following data fields:
 
 | Fields    |
 | -------- |
