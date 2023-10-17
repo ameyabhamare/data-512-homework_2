@@ -31,9 +31,11 @@ I noticed several biases in the data, including the significant influence of pop
 
 Using open source data like Wikipedia for data science research poses inherent challenges. Online data is rife with biases, including geographical, racial, economic, and more. In our assignment, we witnessed how larger population centers influenced article quality, illustrating the potential skewing of results in algorithms trained on such biased datasets. Overrepresented groups or regions can significantly influence data-driven decisions, necessitating a cautious approach to avoid detrimental real-world effects in decision-making based on data science research.
 
-Nonetheless, Wikipedia offers valuable support for data science research in numerous ways. It excels in providing reliable historical data, making it ideal for time series analytics. 
+Wikipedia stands out as a valuable data source due to its extensive information repository. This assignment focused on extracting metadata from articles, revealing the vast potential for in-depth analysis. Despite being widely regarded as a reliable resource, its open-source nature allows public edits, leading to potential inaccuracies. Instances of edit wars have resulted in certain articles, like San Francisco, being locked. Nevertheless, I believe Wikipedia remains a valuable resource for diverse analyses. The previous assignment explored page views, while this one delved into article qualities, showcasing the numerous possibilities for data analysts.
 
-# Coding Process
+Wikipedia offers extensive opportunities for supporting data science research. Its reliability in historical data makes it ideal for time series analytics, representing a significant use case. Being a primary online information source due to its vast content, Wikipedia is widely accessible. Additionally, the Wikimedia Foundation now provides comprehensive APIs and models, enhancing access to various data and metadata aspects. These resources make conducting data science analysis on Wikipedia data highly appealing.
+
+# Workflow
 
 1. In **data_acquisition.ipynb**, we make the Wikimedia API calls to get latest revision IDs for each article title. We use these generated revision IDs.
 
