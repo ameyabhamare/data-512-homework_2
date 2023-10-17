@@ -25,4 +25,8 @@ In this study, I delved into the examination of bias within data by utilizing Wi
 
 3. A csv file [**US States by Region - US Census Bureau**](https://docs.google.com/spreadsheets/d/14Sjfd_u_7N9SSyQ7bmxfebF_2XpR8QamvmNntKDIQB0/edit#gid=0). It contains regions (Northeast, Midwest etc.), divisions (New England, Middle Atlantic etc.) and states (Connecticut, Vermont etc.)
 
+# Licensing    
+---   
+1. Wikimedia Foundation REST API terms of use : https://www.mediawiki.org/wiki/API:REST_API#Terms_and_conditions
 
+2. Creative Commons License: https://creativecommons.org/licenses/by/4.0/
