@@ -23,6 +23,6 @@ In this study, I delved into the examination of bias within data by utilizing Wi
 
 2. An excel file [**NST-EST2022.xlsx**](https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html). This file contains the list of states and the 2022 population estimates for each state.
 
-3. A csv file [**US States by Region - US Census Bureau - Sheet1.csv**]((https://drive.google.com/file/d/1uG6Pj5m3NjBbx9Xkzdtfo_Ewo0zCNK8F/view?usp=drive_link)), containing regions (Northeast, Midwest etc.), divisions (New England, Middle Atlantic etc.) and states (Connecticut, Vermont etc.)
+3. A csv file [**US States by Region - US Census Bureau - Sheet1.csv**](https://drive.google.com/file/d/1uG6Pj5m3NjBbx9Xkzdtfo_Ewo0zCNK8F/view?usp=drive_link), containing regions (Northeast, Midwest etc.), divisions (New England, Middle Atlantic etc.) and states (Connecticut, Vermont etc.)
 
 
