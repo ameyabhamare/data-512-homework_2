@@ -67,6 +67,8 @@ This final csv has following data fields:
 | population    |
 | article_title |
 | revision_id |
-| article_quality |
+| article_quality |    
+     
+This is an example row *Alabama,South - East South Central,5074296.0,"Albertville, Alabama",1179198677,C*
 
-3. In **analysis.ipynb**, we generate all required tables. 
+Finally, in **analysis.ipynb**, I generated all the required tables based on the metrics we were asked to calculate.    
