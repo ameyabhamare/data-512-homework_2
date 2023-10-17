@@ -23,18 +23,6 @@ In this study, I delved into the examination of bias within data by utilizing Wi
    
 3. [Wikimedia API Documentation](https://www.mediawiki.org/wiki/API:Info)
 
-# Research Implications   
----    
-This assignment provided intriguing insights into Wikipedia as a data source. I discovered the concept of article quality rankings and found that less populated states like Wyoming and Vermont had better per capita article coverage. Surprisingly, major city articles, like those for San Francisco, Seattle, and New York City, didn't have high quality ratings, likely due to their frequent and dynamic editing.
-
-I noticed several biases in the data, including the significant influence of population centers on per capita rankings. Major cities exhibited varying article qualities likely due to frequent edits, and they often lacked state names in their titles, requiring special handling. Interestingly, I encountered no missing data after ORES calls, which exceeded my expectations, demonstrating the scalability and reliability of the ORES model. I'm keen to delve deeper into the ORES model's mechanics, understanding its article grading methodology, the significance of different parameters, and the mathematical aspects of probability score assignment.
-
-Using open source data like Wikipedia for data science research poses inherent challenges. Online data is rife with biases, including geographical, racial, economic, and more. In our assignment, we witnessed how larger population centers influenced article quality, illustrating the potential skewing of results in algorithms trained on such biased datasets. Overrepresented groups or regions can significantly influence data-driven decisions, necessitating a cautious approach to avoid detrimental real-world effects in decision-making based on data science research.
-
-Wikipedia stands out as a valuable data source due to its extensive information repository. This assignment focused on extracting metadata from articles, revealing the vast potential for in-depth analysis. Despite being widely regarded as a reliable resource, its open-source nature allows public edits, leading to potential inaccuracies. Instances of edit wars have resulted in certain articles, like San Francisco, being locked. Nevertheless, I believe Wikipedia remains a valuable resource for diverse analyses. The previous assignment explored page views, while this one delved into article qualities, showcasing the numerous possibilities for data analysts.
-
-Wikipedia offers extensive opportunities for supporting data science research. Its reliability in historical data makes it ideal for time series analytics, representing a significant use case. Being a primary online information source due to its vast content, Wikipedia is widely accessible. Additionally, the Wikimedia Foundation now provides comprehensive APIs and models, enhancing access to various data and metadata aspects. These resources make conducting data science analysis on Wikipedia data highly appealing.
-
 # Workflow
 
 In **data_acquisition.ipynb**, I make a Wikimedia API calls to get latest revision IDs for each article title. I used these generated revision IDs to makes ORES API calls for each article title. The ORES response is a multilevel dictionary.    
@@ -72,3 +60,15 @@ This final csv has following data fields:
 This is an example row *Alabama,South - East South Central,5074296.0,"Albertville, Alabama",1179198677,C*
 
 Finally, in **analysis.ipynb**, I generated all the required tables based on the metrics we were asked to calculate.    
+
+# Research Implications   
+---    
+This assignment provided intriguing insights into Wikipedia as a data source. I discovered the concept of article quality rankings and found that less populated states like Wyoming and Vermont had better per capita article coverage. Surprisingly, major city articles, like those for San Francisco, Seattle, and New York City, didn't have high quality ratings, likely due to their frequent and dynamic editing.
+
+I noticed several biases in the data, including the significant influence of population centers on per capita rankings. Major cities exhibited varying article qualities likely due to frequent edits, and they often lacked state names in their titles, requiring special handling. Interestingly, I encountered no missing data after ORES calls, which exceeded my expectations, demonstrating the scalability and reliability of the ORES model. I'm keen to delve deeper into the ORES model's mechanics, understanding its article grading methodology, the significance of different parameters, and the mathematical aspects of probability score assignment.
+
+Using open source data like Wikipedia for data science research poses inherent challenges. Online data is rife with biases, including geographical, racial, economic, and more. In our assignment, we witnessed how larger population centers influenced article quality, illustrating the potential skewing of results in algorithms trained on such biased datasets. Overrepresented groups or regions can significantly influence data-driven decisions, necessitating a cautious approach to avoid detrimental real-world effects in decision-making based on data science research.
+
+Wikipedia stands out as a valuable data source due to its extensive information repository. This assignment focused on extracting metadata from articles, revealing the vast potential for in-depth analysis. Despite being widely regarded as a reliable resource, its open-source nature allows public edits, leading to potential inaccuracies. Instances of edit wars have resulted in certain articles, like San Francisco, being locked. Nevertheless, I believe Wikipedia remains a valuable resource for diverse analyses. The previous assignment explored page views, while this one delved into article qualities, showcasing the numerous possibilities for data analysts.
+
+Wikipedia offers extensive opportunities for supporting data science research. Its reliability in historical data makes it ideal for time series analytics, representing a significant use case. Being a primary online information source due to its vast content, Wikipedia is widely accessible. Additionally, the Wikimedia Foundation now provides comprehensive APIs and models, enhancing access to various data and metadata aspects. These resources make conducting data science analysis on Wikipedia data highly appealing.
