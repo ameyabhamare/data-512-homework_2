@@ -27,6 +27,14 @@ In this study, I delved into the examination of bias within data by utilizing Wi
 
 # Licensing    
 ---   
-1. Wikimedia Foundation REST API terms of use : https://www.mediawiki.org/wiki/API:REST_API#Terms_and_conditions
+1. [Wikimedia Foundation REST API](https://www.mediawiki.org/wiki/API:REST_API#Terms_and_conditions)
 
-2. Creative Commons License: https://creativecommons.org/licenses/by/4.0/
+2. [Creative Commons License](https://creativecommons.org/licenses/by/4.0/)
+
+# Helpful API Documentation    
+---    
+1. [ORES Wiki](https://www.mediawiki.org/wiki/ORES)
+   
+2. [Wikipedia Content Assessment](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment)
+   
+3. [Wikimedia API Documentation](https://www.mediawiki.org/wiki/API:Info)
