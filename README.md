@@ -37,9 +37,21 @@ Wikipedia offers extensive opportunities for supporting data science research. I
 
 # Workflow
 
-1. In **data_acquisition.ipynb**, we make the Wikimedia API calls to get latest revision IDs for each article title. We use these generated revision IDs.
+1. In **data_acquisition.ipynb**, I make a Wikimedia API calls to get latest revision IDs for each article title. I used these generated revision IDs to makes ORES API calls for each article title. 
 
-2. This final csv has following data fields as requested:
+The ORES response is a multilevel dictionary. The score level gives a data structure of the form:
+"Abbeville, Alabama": {
+        "prediction": "C",
+        "probability": {
+            "B": 0.31042252456158204,
+            "C": 0.5979200965294227,
+            "FA": 0.025186220917133947,
+            "GA": 0.04952133645299354,
+            "Start": 0.013573873336789355,
+            "Stub": 0.0033759482020785892
+        }
+
+2. This final csv has following data fields:
 
 | Fields    |
 | -------- |
